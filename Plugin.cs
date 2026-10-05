@@ -47,7 +47,7 @@ public class Plugin : BaseUnityPlugin
 
     private static void AddPresent(WizardPresent present)
     {
-        presents.Add(new PluginPresent(present.displayName, present.presentGuidStr, present.presentPosition));
+        presents.Add(new PluginPresent(present.displayName, present.presentGuidStr, present.PresentAdjustedPosition));
     }
 }
 
