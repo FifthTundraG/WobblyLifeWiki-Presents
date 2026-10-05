@@ -10,3 +10,14 @@ You will need to install BepInEx 5 and place the built DLL file into the `BepInE
 HideManagerGameObject = true
 ...
 ```
+
+Load into any save and press `P`. You should see a file called `presentsdump.txt` in your `BepInEx/plugins/` directory. This file will have a list of present names, GUIDs, and locations.
+
+### DataMap markers
+Use the Python script at `scripts/to_datamap.py` to create a markers group for usage in [DataMaps](https://support.wiki.gg/wiki/DataMaps):
+
+```bash
+python3 scripts/to_datamap.py path/to/your/presentsdump.txt
+```
+
+This will output a file titled `presents.json` in the directory the `to_datamap.py` script is run from. The array in this file can then be copy/pasted into a group under the `"markers"` object in MediaWiki.
