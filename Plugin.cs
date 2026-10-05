@@ -67,6 +67,6 @@ public class PluginPresent
 
     public override string ToString()
     {
-        return $"Name: {Name}, GUID: {GuidStr}, Position: {Position.x:F2}, {Position.y:F2}, {Position.z:F2}";
+        return $"Name:{Name};GUID:{GuidStr};Position:{Position.x:F2},{Position.y:F2},{Position.z:F2}";
     }
 }
