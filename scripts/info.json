@@ -53,10 +53,76 @@
         "description": "Behind the crates in the corner behind the locked door in the main sewer from the dock. (Must fix the broken pipes to get in) ",
         "reward": ""
     },
-    "Present 10 ": {
+    "Present 10": {
         "section": "Sewers",
         "location": "City Island",
         "description": "Behind some stacked crates in a corner in the main sewers before fixing all the pipes ",
         "reward": ""
+    },
+    "Present 11": {
+        "section": "Mountain Island",
+        "location": "",
+        "description": "While doing Detective Mission 6, in the haunted house's basement.",
+        "reward": ""
+    },
+    "Present 12": {
+        "section": "Sewers",
+        "location": "Residential Island",
+        "description": "Inside the sewer outside Grandma's house/The Jelly Man's house. Use the cleaning device to wash off the jelly to uncover it in the corner of the sewer.",
+        "reward": ""
+    },
+    "Present 13": {
+        "section": "Dreamland",
+        "location": "",
+        "description": "Inside the King's room in the castle, immediately to the left after entering",
+        "reward": ""
+    },
+    "Present 14": {
+        "section": "Residential Island",
+        "location": "Birthday House",
+        "description": "At the top of the stairs that are blocked by the mom. She can be distracted by removing the battery from the breaker box in the room under the stairs.",
+        "reward": "[[Clown Car]]"
+    },
+    "Present 15": {
+        "section": "Residential Island",
+        "location": "Jelly Man's Basement",
+        "description": "In the back of the basement near the gate of the workshop a button can be pressed. The spout in the workshop shoots the player up to the conveyor belts and a portal to a room with bouncy platforms.",
+        "reward": "$50"
+    },
+    "Present 16": {
+        "section": "Ancient Wobbly Trials",
+        "location": "",
+        "description": "In the third trial room, hidden behind water and next to the door where you entered from.",
+        "reward": "Ancient Armour Helmet"
+    },
+    "Present 17": {
+        "section": "Ancient Wobbly Trials",
+        "location": "",
+        "description": "In the second trial room behind the archaeologist.",
+        "reward": "Ancient Armour Shirt"
+    },
+    "Present 18": {
+        "section": "Ancient Wobbly Trials",
+        "location": "",
+        "description": "In the first trial room behind a pillar ",
+        "reward": "Ancient Armour Pants"
+    },
+    "Present 19": {
+        "section": "Mountain Island",
+        "location": "",
+        "description": "Reward for completing the Sword Cave puzzle.",
+        "reward": "$50"
+    },
+    "Present 20": {
+        "section": "Mountain Island",
+        "location": "",
+        "description": "Reward for completing the Sword Cave puzzle.",
+        "reward": "$50"
+    },
+    "Present 21": {
+        "section": "Mountain Island",
+        "location": "",
+        "description": "Reward for completing the Sword Cave puzzle.",
+        "reward": "$50"
     }
 }
