@@ -14,19 +14,20 @@ def parse_presents(file_path):
                 r"Name:(.*?);GUID:[^;]+;Position:"
                 r"\s*(-?\d+(?:\.\d+)?),"
                 r"\s*(-?\d+(?:\.\d+)?),"
-                r"\s*(-?\d+(?:\.\d+)?)",
+                r"\s*(-?\d+(?:\.\d+)?);Texture:(.*)",
                 line,
             )
 
             if not match:
                 continue
 
-            name, x, y, z = match.groups()
+            name, x, y, z, texture_name = match.groups()
 
             presents.append({
                 "x": int(float(x)),
                 "y": int(float(z)),
                 "name": name.strip(),
+                "image": texture_name.replace("_", " ") + ".png"
             })
 
     presents.sort(

@@ -21,3 +21,6 @@ python3 scripts/to_datamap.py path/to/your/presentsdump.txt
 ```
 
 This will output a file titled `presents.json` in the directory the `to_datamap.py` script is run from. The array in this file can then be copy/pasted into a group under the `"markers"` object in MediaWiki.
+
+## Known bugs
+For some reason Present 5 does not have a texture file attached to it ingame. The output this mod produces will default to an "error" texture (corresponds to [this file](https://wobblylife.wiki.gg/wiki/File:Tile000.png) on the wiki). The texture file for this present does exist though, it will just need to be manually specified in the output.

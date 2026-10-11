@@ -1,6 +1,8 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -25,29 +27,66 @@ public class Plugin : BaseUnityPlugin
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            Logger.LogInfo("Starting present location dump...");
-            WizardTentManager wizardTentManager = FindObjectOfType<WizardTentManager>();
-
-            // populate presents list
-            Action<WizardPresent> action = new Action<WizardPresent>(AddPresent);
-            Array.ForEach(wizardTentManager.GetWizardPresentData().GetWizardPresents(), action);
-
-            // dump presents list to a file
-            string filePath = Path.Combine(Paths.PluginPath, "presentsdump.txt");
-            using (StreamWriter sw = new StreamWriter(filePath, false)) {
-                foreach (PluginPresent present in presents)
-                {
-                    sw.WriteLine(present);
-                };
-            }
-
-            Logger.LogInfo("Finished present location dump!");
+            StartCoroutine(DumpPresents());
         }
     }
 
-    private static void AddPresent(WizardPresent present)
+    private System.Collections.IEnumerator DumpPresents()
     {
-        presents.Add(new PluginPresent(present.displayName, present.presentGuidStr, present.PresentAdjustedPosition));
+        Logger.LogInfo("Starting present location dump...");
+
+        WizardTentManager wizardTentManager = FindObjectOfType<WizardTentManager>();
+
+        if (wizardTentManager == null)
+        {
+            Logger.LogError("Could not find WizardTentManager!");
+            yield break;
+        }
+
+        presents.Clear();
+
+        WizardPresent[] wizardPresents = wizardTentManager.GetWizardPresentData().GetWizardPresents();
+
+        foreach (WizardPresent present in wizardPresents)
+        {
+            yield return StartCoroutine(AddPresent(present));
+        }
+
+        string filePath = Path.Combine(Paths.PluginPath, "presentsdump.txt");
+
+        using (StreamWriter sw = new StreamWriter(filePath, false))
+        {
+            foreach (PluginPresent present in presents)
+            {
+                sw.WriteLine(present);
+            }
+        }
+
+        Logger.LogInfo($"Dumped {presents.Count} presents to {filePath}");
+    }
+
+    private static System.Collections.IEnumerator AddPresent(WizardPresent present)
+    {
+        AsyncOperationHandle<Texture> handle = Addressables.LoadAssetAsync<Texture>(present.presentTextureReference);
+        yield return handle;
+
+        string textureName = "Tile000"; // default texture name in case of failure, see https://wobblylife.wiki.gg/wiki/File:Tile000.png
+        if (handle.Status == AsyncOperationStatus.Succeeded)
+        {
+            Texture texture = handle.Result;
+
+            textureName = texture.name;
+
+            Addressables.Release(handle);
+        }
+        else
+        {
+            Logger.LogError($"Failed to load present texture for {present.displayName}.");
+
+            Addressables.Release(handle);
+        }
+
+        presents.Add(new PluginPresent(present.displayName,present.presentGuidStr,present.PresentAdjustedPosition,textureName));
     }
 }
 
@@ -57,16 +96,18 @@ public class PluginPresent
     public string Name { get; }
     public string GuidStr { get; }
     public Vector3 Position { get; }
+    public string TextureName { get; }
 
-    public PluginPresent(string name, string guidStr, Vector3 position)
+    public PluginPresent(string name, string guidStr, Vector3 position, string textureName)
     {
         Name = name;
         GuidStr = guidStr;
         Position = position;
+        TextureName = textureName;
     }
 
     public override string ToString()
     {
-        return $"Name:{Name};GUID:{GuidStr};Position:{Position.x:F2},{Position.y:F2},{Position.z:F2}";
+        return $"Name:{Name};GUID:{GuidStr};Position:{Position.x:F2},{Position.y:F2},{Position.z:F2};Texture:{TextureName}";
     }
 }

@@ -29,12 +29,23 @@
   <ItemGroup>
     <Reference Include="Game">
       <HintPath>$(GameDir)Wobbly Life_Data/Managed/Game.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="Utils">
       <HintPath>$(GameDir)Wobbly Life_Data/Managed/Utils.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="HawkNetworking">
       <HintPath>$(GameDir)Wobbly Life_Data/Managed/HawkNetworking.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>$(GameDir)Wobbly Life_Data/Managed/Unity.Addressables.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>$(GameDir)Wobbly Life_Data/Managed/Unity.ResourceManager.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
   
