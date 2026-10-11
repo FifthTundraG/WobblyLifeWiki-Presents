@@ -1,326 +1,340 @@
 {
-    "Present 1": {
-        "section": "Sewers",
-        "location": "City Island",
-        "description": "Inside the sewer outside the Disco. Grab a lantern when you enter to make it easier to see.",
-        "reward": ""
-    },
-    "Present 2": {
-        "section": "Sewers",
-        "location": "Residential Island",
-        "description": "Inside the sewer outside Grandma's house/The Jelly Man's house. Use the cleaning device to wash off the jelly to uncover it in the corner of the sewer.",
-        "reward": ""
-    },
-    "Present 3": {
-        "section": "Sewers",
-        "location": "City Island",
-        "description": "Inside the sewer out-front of the fire station. Collectable without putting out the fire because it does not hurt the player.",
-        "reward": ""
-    },
-    "Present 4": {
-        "section": "City Island",
-        "location": "Police Station",
-        "description": "Inside the second-to-the-right jail cell.",
-        "reward": "$50"
-    },
-    "Present 5": {
-        "section": "City Island",
-        "location": "Hospital",
-        "description": "On the second floor, in the room furthest down the corridor on the right.",
-        "reward": "$75"
-    },
-    "Present 6": {
-        "section": "City Island",
-        "location": "Wobbly TV Station",
-        "description": "On the second floor, in the room next to the elevator, remove the Wonderful Wobbly Quiz poster from the wall to reveal a button. Pressing this button unlocks the top floor with the present.",
-        "reward": "[[Limo]]"
-    },
-    "Present 7": {
-        "section": "City Island",
-        "location": "RubberBandGames Office",
-        "description": "Upstairs in a cubicle behind the elevator.",
-        "reward": "$50"
-    },
-    "Present 8": {
-        "section": "Sewers",
-        "location": "Mountain Island",
-        "description": "Inside the sewer in the tunnel. Melt the ice by fueling the boiler then find it in a room by going into the door directly to the left of the boiler.",
-        "reward": ""
-    },
-    "Present 9": {
-        "section": "Sewers",
-        "location": "City Island",
-        "description": "Behind the crates in the corner behind the locked door in the main sewer from the dock. (Must fix the broken pipes to get in) ",
-        "reward": ""
-    },
-    "Present 10": {
-        "section": "Sewers",
-        "location": "City Island",
-        "description": "Behind some stacked crates in a corner in the main sewers before fixing all the pipes ",
-        "reward": ""
-    },
-    "Present 11": {
-        "section": "Mountain Island",
-        "location": "",
-        "description": "While doing Detective Mission 6, in the haunted house's basement.",
-        "reward": ""
-    },
-    "Present 12": {
-        "section": "Sewers",
-        "location": "Residential Island",
-        "description": "Inside the sewer outside Grandma's house/The Jelly Man's house. Use the cleaning device to wash off the jelly to uncover it in the corner of the sewer.",
-        "reward": ""
-    },
-    "Present 13": {
-        "section": "Dreamland",
-        "location": "",
-        "description": "Inside the King's room in the castle, immediately to the left after entering",
-        "reward": ""
-    },
-    "Present 14": {
-        "section": "Residential Island",
-        "location": "Birthday House",
-        "description": "At the top of the stairs that are blocked by the mom. She can be distracted by removing the battery from the breaker box in the room under the stairs.",
-        "reward": "[[Clown Car]]"
-    },
-    "Present 15": {
-        "section": "Residential Island",
-        "location": "Jelly Man's Basement",
-        "description": "In the back of the basement near the gate of the workshop a button can be pressed. The spout in the workshop shoots the player up to the conveyor belts and a portal to a room with bouncy platforms.",
-        "reward": "$50"
-    },
-    "Present 16": {
-        "section": "Ancient Wobbly Trials",
-        "location": "Jungle Island",
-        "description": "In the third trial room, hidden behind water and next to the door where you entered from.",
-        "reward": "Ancient Armour Helmet"
-    },
-    "Present 17": {
-        "section": "Ancient Wobbly Trials",
-        "location": "Jungle Island",
-        "description": "In the second trial room behind the archaeologist.",
-        "reward": "Ancient Armour Shirt"
-    },
-    "Present 18": {
-        "section": "Ancient Wobbly Trials",
-        "location": "Jungle Island",
-        "description": "In the first trial room behind a pillar ",
-        "reward": "Ancient Armour Pants"
-    },
-    "Present 19": {
-        "section": "Mountain Island",
-        "location": "",
-        "description": "Reward for completing the Sword Cave puzzle.",
-        "reward": "$50"
-    },
-    "Present 20": {
-        "section": "Mountain Island",
-        "location": "",
-        "description": "Reward for completing the Sword Cave puzzle.",
-        "reward": "$50"
-    },
-    "Present 21": {
-        "section": "Mountain Island",
-        "location": "",
-        "description": "Reward for completing the Sword Cave puzzle.",
-        "reward": "$50"
-    },
-    "Present 22": {
-        "section": "Ancient Wobbly Trials",
-        "location": "Mountain Island",
-        "description": "In the parkour cave, on one of the bottom platforms of the wooden structure.",
-        "reward": "$35"
-    },
-    "Present 23": {
-        "section": "Ancient Wobbly Trials",
-        "location": "Jungle Island",
-        "description": "In the cave down a hole in the ground next to the giant statue in the Jungle. The chest is on the right island in the room where the player must jump across a river using rafts and crocodiles.",
-        "reward": "$35"
-    },
-    "Present 24": {
-        "section": "Ancient Wobbly Trials",
-        "location": "Jungle Island",
-        "description": "In the room to the right of the archaeologists.",
-        "reward": "$10"
-    },
-    "Present 25": {
-        "section": "Ancient Wobbly Trials",
-        "location": "Jungle Island",
-        "description": "In the room to the right of the archaeologists.",
-        "reward": "$5"
-    },
-    "Present 26": {
-        "section": "Ancient Wobbly Trials",
-        "location": "Jungle Island",
-        "description": "In the same cave, in the room to the left once you reach the archaeologists.",
-        "reward": "$10"
-    },
-    "Present 27": {
-        "section": "Ancient Wobbly Trials",
-        "location": "Jungle Island",
-        "description": "In the same cave, in the room to the left once you reach the archaeologists.",
-        "reward": "$5"
-    },
-    "Present 28": {
-        "section": "Ancient Wobbly Trials",
-        "location": "Jungle Island",
-        "description": "Next to the lift, after the whirlpool.",
-        "reward": "Frog Hat"
-    },
-    "Present 29": {
-        "section": "Mountain Island",
-        "location": "Secret Lab",
-        "description": "On the bottom level of the plank and nail platforming section.",
-        "reward": "$75"
-    },
-    "Present 30": {
-        "section": "Mountain Island",
-        "location": "Secret Lab",
-        "description": "Hidden within the book pile on the globe table.",
-        "reward": "$50"
-    },
-    "Present 31": {
-        "section": "Mountain Island",
-        "location": "Secret Lab",
-        "description": "Before going through the hole with a spider web by it, to the right of the bottles in the cupboard.",
-        "reward": "$50"
-    },
-    "Present 32": {
-        "section": "Mountain Island",
-        "location": "Secret Lab",
-        "description": "Behind the shrinking machine.",
-        "reward": "$50"
-    },
-    "Present 33": {
-        "section": "Mountain Island",
-        "location": "Secret Lab",
-        "description": "Backtrack at the beginning of the bottle maze on the upper shelf of the middle table.",
-        "reward": "$50"
-    },
-    "Present 34": {
-        "section": "Jungle Island",
-        "location": "",
-        "description": "Inside a building on top of the hill not far from the Treasure Hunting stall.",
-        "reward": "$95"
-    },
-    "Present 35": {
-        "section": "Jungle Island",
-        "location": "",
-        "description": "In the bushes at the beginning of the path that leads up to the big Temple, somewhat behind it.",
-        "reward": "$85"
-    },
-    "Present 36": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "After the boulder path take the first left where one passage leads to this chest.",
-        "reward": "$5"
-    },
-    "Present 37": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "After the boulder path take the first left where one passage leads to this chest.",
-        "reward": "$5"
-    },
-    "Present 38": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "After the boulder path take the first left where one passage leads to this chest.",
-        "reward": "Mummy Top"
-    },
-    "Present 39": {
-        "section": "Jungle Island",
-        "location": "",
-        "description": "Between legs of the Wobbly Guy Sphinx at the top of the island.",
-        "reward": "$100"
-    },
-    "Present 40": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "Immediately to the left after entering the Orb and Cog puzzle room.",
-        "reward": "$50"
-    },
-    "Present 41": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "Immediately to the left after entering the Orb and Cog puzzle room.",
-        "reward": "$10"
-    },
-    "Present 42": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "Chest on the right after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
-        "reward": "$5"
-    },
-    "Present 43": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "Chest on the right after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
-        "reward": "$5"
-    },
-    "Present 44": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "Chest on the right after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
-        "reward": "$5"
-    },
-    "Present 45": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "At the end of the maze, the doorway to continue will be to the left",
-        "reward": "Explorer Pants"
-    },
-    "Present 46": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "Chest on the left after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
-        "reward": "$5"
-    },
-    "Present 47": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "Chest on the left after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
-        "reward": "$5"
-    },
-    "Present 48": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "Chest on the left after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
-        "reward": "$5"
-    },
-    "Present 49": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "To the right of the start of the Boulder obstacle.",
-        "reward": "Explorer Top"
-    },
-    "Present 50": {
-        "section": "Jungle Island",
-        "location": "",
-        "description": "Collected after doing the first section of the Waterfall puzzles",
-        "reward": "$100"
-    },
-    "Present 51": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "In one of the rooms unlockable in the light reflection puzzle.",
-        "reward": "Explorer Hat"
-    },
-    "Present 52": {
-        "section": "Jungle Island",
-        "location": "Outside The Temple",
-        "description": "Where the basket of the hot air balloon is parked.",
-        "reward": "$35"
-    },
-    "Present 53": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "At the far end of the [[wikipedia:Simon Says|Simon Says]] puzzle room from the entrance.",
-        "reward": "$10"
-    },
-    "Present 54": {
-        "section": "Jungle Island",
-        "location": "The Temple",
-        "description": "At the far end of the [[wikipedia:Simon Says|Simon Says]] puzzle room from the entrance.",
-        "reward": "Mummy Hat"
+    "sections": [
+        "Residential Island",
+        "City Island",
+        "Farm Island",
+        "Mountain Island",
+        "Jungle Island",
+        "Mansion and Paradise Island",
+        "Sewers",
+        "Ancient Wobbly Trials",
+        "Dreamland",
+        "Other"
+    ],
+    "presents": {
+        "Present 1": {
+            "section": "Sewers",
+            "location": "City Island",
+            "description": "Inside the sewer outside the Disco. Grab a lantern when you enter to make it easier to see.",
+            "reward": ""
+        },
+        "Present 2": {
+            "section": "Sewers",
+            "location": "Residential Island",
+            "description": "Inside the sewer outside Grandma's house/The Jelly Man's house. Use the cleaning device to wash off the jelly to uncover it in the corner of the sewer.",
+            "reward": ""
+        },
+        "Present 3": {
+            "section": "Sewers",
+            "location": "City Island",
+            "description": "Inside the sewer out-front of the fire station. Collectable without putting out the fire because it does not hurt the player.",
+            "reward": ""
+        },
+        "Present 4": {
+            "section": "City Island",
+            "location": "Police Station",
+            "description": "Inside the second-to-the-right jail cell.",
+            "reward": "$50"
+        },
+        "Present 5": {
+            "section": "City Island",
+            "location": "Hospital",
+            "description": "On the second floor, in the room furthest down the corridor on the right.",
+            "reward": "$75"
+        },
+        "Present 6": {
+            "section": "City Island",
+            "location": "Wobbly TV Station",
+            "description": "On the second floor, in the room next to the elevator, remove the Wonderful Wobbly Quiz poster from the wall to reveal a button. Pressing this button unlocks the top floor with the present.",
+            "reward": "[[Limo]]"
+        },
+        "Present 7": {
+            "section": "City Island",
+            "location": "RubberBandGames Office",
+            "description": "Upstairs in a cubicle behind the elevator.",
+            "reward": "$50"
+        },
+        "Present 8": {
+            "section": "Sewers",
+            "location": "Mountain Island",
+            "description": "Inside the sewer in the tunnel. Melt the ice by fueling the boiler then find it in a room by going into the door directly to the left of the boiler.",
+            "reward": ""
+        },
+        "Present 9": {
+            "section": "Sewers",
+            "location": "City Island",
+            "description": "Behind the crates in the corner behind the locked door in the main sewer from the dock. (Must fix the broken pipes to get in) ",
+            "reward": ""
+        },
+        "Present 10": {
+            "section": "Sewers",
+            "location": "City Island",
+            "description": "Behind some stacked crates in a corner in the main sewers before fixing all the pipes ",
+            "reward": ""
+        },
+        "Present 11": {
+            "section": "Mountain Island",
+            "location": "",
+            "description": "While doing Detective Mission 6, in the haunted house's basement.",
+            "reward": ""
+        },
+        "Present 12": {
+            "section": "Sewers",
+            "location": "Residential Island",
+            "description": "Inside the sewer outside Grandma's house/The Jelly Man's house. Use the cleaning device to wash off the jelly to uncover it in the corner of the sewer.",
+            "reward": ""
+        },
+        "Present 13": {
+            "section": "Dreamland",
+            "location": "",
+            "description": "Inside the King's room in the castle, immediately to the left after entering",
+            "reward": ""
+        },
+        "Present 14": {
+            "section": "Residential Island",
+            "location": "Birthday House",
+            "description": "At the top of the stairs that are blocked by the mom. She can be distracted by removing the battery from the breaker box in the room under the stairs.",
+            "reward": "[[Clown Car]]"
+        },
+        "Present 15": {
+            "section": "Residential Island",
+            "location": "Jelly Man's Basement",
+            "description": "In the back of the basement near the gate of the workshop a button can be pressed. The spout in the workshop shoots the player up to the conveyor belts and a portal to a room with bouncy platforms.",
+            "reward": "$50"
+        },
+        "Present 16": {
+            "section": "Ancient Wobbly Trials",
+            "location": "Jungle Island",
+            "description": "In the third trial room, hidden behind water and next to the door where you entered from.",
+            "reward": "Ancient Armour Helmet"
+        },
+        "Present 17": {
+            "section": "Ancient Wobbly Trials",
+            "location": "Jungle Island",
+            "description": "In the second trial room behind the archaeologist.",
+            "reward": "Ancient Armour Shirt"
+        },
+        "Present 18": {
+            "section": "Ancient Wobbly Trials",
+            "location": "Jungle Island",
+            "description": "In the first trial room behind a pillar ",
+            "reward": "Ancient Armour Pants"
+        },
+        "Present 19": {
+            "section": "Mountain Island",
+            "location": "",
+            "description": "Reward for completing the Sword Cave puzzle.",
+            "reward": "$50"
+        },
+        "Present 20": {
+            "section": "Mountain Island",
+            "location": "",
+            "description": "Reward for completing the Sword Cave puzzle.",
+            "reward": "$50"
+        },
+        "Present 21": {
+            "section": "Mountain Island",
+            "location": "",
+            "description": "Reward for completing the Sword Cave puzzle.",
+            "reward": "$50"
+        },
+        "Present 22": {
+            "section": "Ancient Wobbly Trials",
+            "location": "Mountain Island",
+            "description": "In the parkour cave, on one of the bottom platforms of the wooden structure.",
+            "reward": "$35"
+        },
+        "Present 23": {
+            "section": "Ancient Wobbly Trials",
+            "location": "Jungle Island",
+            "description": "In the cave down a hole in the ground next to the giant statue in the Jungle. The chest is on the right island in the room where the player must jump across a river using rafts and crocodiles.",
+            "reward": "$35"
+        },
+        "Present 24": {
+            "section": "Ancient Wobbly Trials",
+            "location": "Jungle Island",
+            "description": "In the room to the right of the archaeologists.",
+            "reward": "$10"
+        },
+        "Present 25": {
+            "section": "Ancient Wobbly Trials",
+            "location": "Jungle Island",
+            "description": "In the room to the right of the archaeologists.",
+            "reward": "$5"
+        },
+        "Present 26": {
+            "section": "Ancient Wobbly Trials",
+            "location": "Jungle Island",
+            "description": "In the same cave, in the room to the left once you reach the archaeologists.",
+            "reward": "$10"
+        },
+        "Present 27": {
+            "section": "Ancient Wobbly Trials",
+            "location": "Jungle Island",
+            "description": "In the same cave, in the room to the left once you reach the archaeologists.",
+            "reward": "$5"
+        },
+        "Present 28": {
+            "section": "Ancient Wobbly Trials",
+            "location": "Jungle Island",
+            "description": "Next to the lift, after the whirlpool.",
+            "reward": "Frog Hat"
+        },
+        "Present 29": {
+            "section": "Mountain Island",
+            "location": "Secret Lab",
+            "description": "On the bottom level of the plank and nail platforming section.",
+            "reward": "$75"
+        },
+        "Present 30": {
+            "section": "Mountain Island",
+            "location": "Secret Lab",
+            "description": "Hidden within the book pile on the globe table.",
+            "reward": "$50"
+        },
+        "Present 31": {
+            "section": "Mountain Island",
+            "location": "Secret Lab",
+            "description": "Before going through the hole with a spider web by it, to the right of the bottles in the cupboard.",
+            "reward": "$50"
+        },
+        "Present 32": {
+            "section": "Mountain Island",
+            "location": "Secret Lab",
+            "description": "Behind the shrinking machine.",
+            "reward": "$50"
+        },
+        "Present 33": {
+            "section": "Mountain Island",
+            "location": "Secret Lab",
+            "description": "Backtrack at the beginning of the bottle maze on the upper shelf of the middle table.",
+            "reward": "$50"
+        },
+        "Present 34": {
+            "section": "Jungle Island",
+            "location": "",
+            "description": "Inside a building on top of the hill not far from the Treasure Hunting stall.",
+            "reward": "$95"
+        },
+        "Present 35": {
+            "section": "Jungle Island",
+            "location": "",
+            "description": "In the bushes at the beginning of the path that leads up to the big Temple, somewhat behind it.",
+            "reward": "$85"
+        },
+        "Present 36": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "After the boulder path take the first left where one passage leads to this chest.",
+            "reward": "$5"
+        },
+        "Present 37": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "After the boulder path take the first left where one passage leads to this chest.",
+            "reward": "$5"
+        },
+        "Present 38": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "After the boulder path take the first left where one passage leads to this chest.",
+            "reward": "Mummy Top"
+        },
+        "Present 39": {
+            "section": "Jungle Island",
+            "location": "",
+            "description": "Between legs of the Wobbly Guy Sphinx at the top of the island.",
+            "reward": "$100"
+        },
+        "Present 40": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "Immediately to the left after entering the Orb and Cog puzzle room.",
+            "reward": "$50"
+        },
+        "Present 41": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "Immediately to the left after entering the Orb and Cog puzzle room.",
+            "reward": "$10"
+        },
+        "Present 42": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "Chest on the right after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+            "reward": "$5"
+        },
+        "Present 43": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "Chest on the right after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+            "reward": "$5"
+        },
+        "Present 44": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "Chest on the right after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+            "reward": "$5"
+        },
+        "Present 45": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "At the end of the maze, the doorway to continue will be to the left",
+            "reward": "Explorer Pants"
+        },
+        "Present 46": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "Chest on the left after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+            "reward": "$5"
+        },
+        "Present 47": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "Chest on the left after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+            "reward": "$5"
+        },
+        "Present 48": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "Chest on the left after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+            "reward": "$5"
+        },
+        "Present 49": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "To the right of the start of the Boulder obstacle.",
+            "reward": "Explorer Top"
+        },
+        "Present 50": {
+            "section": "Jungle Island",
+            "location": "",
+            "description": "Collected after doing the first section of the Waterfall puzzles",
+            "reward": "$100"
+        },
+        "Present 51": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "In one of the rooms unlockable in the light reflection puzzle.",
+            "reward": "Explorer Hat"
+        },
+        "Present 52": {
+            "section": "Jungle Island",
+            "location": "Outside The Temple",
+            "description": "Where the basket of the hot air balloon is parked.",
+            "reward": "$35"
+        },
+        "Present 53": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "At the far end of the [[wikipedia:Simon Says|Simon Says]] puzzle room from the entrance.",
+            "reward": "$10"
+        },
+        "Present 54": {
+            "section": "Jungle Island",
+            "location": "The Temple",
+            "description": "At the far end of the [[wikipedia:Simon Says|Simon Says]] puzzle room from the entrance.",
+            "reward": "Mummy Hat"
+        }
     }
 }
