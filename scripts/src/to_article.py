@@ -1,6 +1,6 @@
-from .common import WikiPresent, get_presents_in_section, info
+from .common import WikiPresent, get_presents_in_section, info, init
 
-OUTPUT_FILE: str = "presents.wikitext"
+OUTPUT_FILE: str = "build/presents.wikitext"
 
 ARTICLE_HEADER: str = "<noinclude>__NOTOC__{{Generated|link=https://github.com/FifthTundraG/WobblyLifeWiki-Presents|contact=FifthTundraG}}</noinclude>"
 
@@ -34,6 +34,8 @@ def create_section(section: str) -> str:
     return output
 
 def main() -> None:
+    init()
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
         file.write(ARTICLE_HEADER)
         for section in info["sections"]:

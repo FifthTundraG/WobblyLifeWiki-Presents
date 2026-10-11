@@ -3,9 +3,9 @@
 import json
 from typing import Any
 
-from .common import GamePresent, WikiPresent
+from .common import GamePresent, WikiPresent, init
 
-OUTPUT_FILE: str = "presents.json"
+OUTPUT_FILE: str = "build/presents.json"
 
 def wiki_present_to_datamap_marker(present: WikiPresent) -> dict[str, Any]:
     descriptionList: list[str] = []
@@ -29,6 +29,8 @@ def wiki_present_to_datamap_marker(present: WikiPresent) -> dict[str, Any]:
 
 
 def main() -> None:
+    init()
+
     game_presents = GamePresent.parse_dump("presentsdump.txt")
     wiki_presents = [WikiPresent.from_game_present(present) for present in game_presents]
 

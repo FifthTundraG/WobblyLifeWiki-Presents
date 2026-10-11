@@ -1,6 +1,7 @@
 import json
 import re
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any
 
 info: dict[str, Any] = json.load(open("src/info.json", "r", encoding="utf-8"))  # noqa: SIM115
@@ -85,3 +86,8 @@ def get_presents_in_section(section: str) -> list[WikiPresent]:
         for present in GamePresent.parse_dump("presentsdump.txt")
         if info["presents"][present.name]["section"] == section
     ]
+
+def init() -> None:
+    """Generic initialization function for the different scripts in this project."""
+
+    Path("build").mkdir(parents=True, exist_ok=True)
