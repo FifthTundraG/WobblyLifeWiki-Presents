@@ -196,5 +196,131 @@
         "location": "Secret Lab",
         "description": "Backtrack at the beginning of the bottle maze on the upper shelf of the middle table.",
         "reward": "$50"
+    },
+    "Present 34": {
+        "section": "Jungle Island",
+        "location": "",
+        "description": "Inside a building on top of the hill not far from the Treasure Hunting stall.",
+        "reward": "$95"
+    },
+    "Present 35": {
+        "section": "Jungle Island",
+        "location": "",
+        "description": "In the bushes at the beginning of the path that leads up to the big Temple, somewhat behind it.",
+        "reward": "$85"
+    },
+    "Present 36": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "After the boulder path take the first left where one passage leads to this chest.",
+        "reward": "$5"
+    },
+    "Present 37": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "After the boulder path take the first left where one passage leads to this chest.",
+        "reward": "$5"
+    },
+    "Present 38": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "After the boulder path take the first left where one passage leads to this chest.",
+        "reward": "Mummy Top"
+    },
+    "Present 39": {
+        "section": "Jungle Island",
+        "location": "",
+        "description": "Between legs of the Wobbly Guy Sphinx at the top of the island.",
+        "reward": "$100"
+    },
+    "Present 40": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "Immediately to the left after entering the Orb and Cog puzzle room.",
+        "reward": "$50"
+    },
+    "Present 41": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "Immediately to the left after entering the Orb and Cog puzzle room.",
+        "reward": "$10"
+    },
+    "Present 42": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "Chest on the right after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+        "reward": "$5"
+    },
+    "Present 43": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "Chest on the right after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+        "reward": "$5"
+    },
+    "Present 44": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "Chest on the right after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+        "reward": "$5"
+    },
+    "Present 45": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "At the end of the maze, the doorway to continue will be to the left",
+        "reward": "Explorer Pants"
+    },
+    "Present 46": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "Chest on the left after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+        "reward": "$5"
+    },
+    "Present 47": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "Chest on the left after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+        "reward": "$5"
+    },
+    "Present 48": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "Chest on the left after completing the [[wikipedia:Simon Says|Simon Says]] puzzle.",
+        "reward": "$5"
+    },
+    "Present 49": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "To the right of the start of the Boulder obstacle.",
+        "reward": "Explorer Top"
+    },
+    "Present 50": {
+        "section": "Jungle Island",
+        "location": "",
+        "description": "Collected after doing the first section of the Waterfall puzzles",
+        "reward": "$100"
+    },
+    "Present 51": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "In one of the rooms unlockable in the light reflection puzzle.",
+        "reward": "Explorer Hat"
+    },
+    "Present 52": {
+        "section": "Jungle Island",
+        "location": "Outside The Temple",
+        "description": "Where the basket of the hot air balloon is parked.",
+        "reward": "$35"
+    },
+    "Present 53": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "At the far end of the [[wikipedia:Simon Says|Simon Says]] puzzle room from the entrance.",
+        "reward": "$10"
+    },
+    "Present 54": {
+        "section": "Jungle Island",
+        "location": "The Temple",
+        "description": "At the far end of the [[wikipedia:Simon Says|Simon Says]] puzzle room from the entrance.",
+        "reward": "Mummy Hat"
     }
 }
