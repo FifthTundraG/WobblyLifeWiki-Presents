@@ -1,0 +1,17 @@
+[project]
+name = "scripts"
+version = "0.1.0"
+description = "Creates the data for the Presents page on the Wobbly Life Wiki"
+readme = "README.md"
+authors = [
+    { name = "FifthTundraG", email = "117035030+FifthTundraG@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+scripts = "scripts:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
