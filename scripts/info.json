@@ -1,0 +1,62 @@
+{
+    "Present 1": {
+        "section": "Sewers",
+        "location": "City Island",
+        "description": "Inside the sewer outside the Disco. Grab a lantern when you enter to make it easier to see.",
+        "reward": ""
+    },
+    "Present 2": {
+        "section": "Sewers",
+        "location": "Residential Island",
+        "description": "Inside the sewer outside Grandma's house/The Jelly Man's house. Use the cleaning device to wash off the jelly to uncover it in the corner of the sewer.",
+        "reward": ""
+    },
+    "Present 3": {
+        "section": "Sewers",
+        "location": "City Island",
+        "description": "Inside the sewer out-front of the fire station. Collectable without putting out the fire because it does not hurt the player.",
+        "reward": ""
+    },
+    "Present 4": {
+        "section": "City Island",
+        "location": "Police Station",
+        "description": "Inside the second-to-the-right jail cell.",
+        "reward": "$50"
+    },
+    "Present 5": {
+        "section": "City Island",
+        "location": "Hospital",
+        "description": "On the second floor, in the room furthest down the corridor on the right.",
+        "reward": "$75"
+    },
+    "Present 6": {
+        "section": "City Island",
+        "location": "Wobbly TV Station",
+        "description": "On the second floor, in the room next to the elevator, remove the Wonderful Wobbly Quiz poster from the wall to reveal a button. Pressing this button unlocks the top floor with the present.",
+        "reward": "[[Limo]]"
+    },
+    "Present 7": {
+        "section": "City Island",
+        "location": "RubberBandGames Office",
+        "description": "Upstairs in a cubicle behind the elevator.",
+        "reward": "$50"
+    },
+    "Present 8": {
+        "section": "Sewers",
+        "location": "Mountain Island",
+        "description": "Inside the sewer in the tunnel. Melt the ice by fueling the boiler then find it in a room by going into the door directly to the left of the boiler.",
+        "reward": ""
+    },
+    "Present 9": {
+        "section": "Sewers",
+        "location": "City Island",
+        "description": "Behind the crates in the corner behind the locked door in the main sewer from the dock. (Must fix the broken pipes to get in) ",
+        "reward": ""
+    },
+    "Present 10 ": {
+        "section": "Sewers",
+        "location": "City Island",
+        "description": "Behind some stacked crates in a corner in the main sewers before fixing all the pipes ",
+        "reward": ""
+    }
+}
