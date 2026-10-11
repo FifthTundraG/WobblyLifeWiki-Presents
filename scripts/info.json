@@ -91,19 +91,19 @@
     },
     "Present 16": {
         "section": "Ancient Wobbly Trials",
-        "location": "",
+        "location": "Jungle Island",
         "description": "In the third trial room, hidden behind water and next to the door where you entered from.",
         "reward": "Ancient Armour Helmet"
     },
     "Present 17": {
         "section": "Ancient Wobbly Trials",
-        "location": "",
+        "location": "Jungle Island",
         "description": "In the second trial room behind the archaeologist.",
         "reward": "Ancient Armour Shirt"
     },
     "Present 18": {
         "section": "Ancient Wobbly Trials",
-        "location": "",
+        "location": "Jungle Island",
         "description": "In the first trial room behind a pillar ",
         "reward": "Ancient Armour Pants"
     },
@@ -123,6 +123,78 @@
         "section": "Mountain Island",
         "location": "",
         "description": "Reward for completing the Sword Cave puzzle.",
+        "reward": "$50"
+    },
+    "Present 22": {
+        "section": "Ancient Wobbly Trials",
+        "location": "Mountain Island",
+        "description": "In the parkour cave, on one of the bottom platforms of the wooden structure.",
+        "reward": "$35"
+    },
+    "Present 23": {
+        "section": "Ancient Wobbly Trials",
+        "location": "Jungle Island",
+        "description": "In the cave down a hole in the ground next to the giant statue in the Jungle. The chest is on the right island in the room where the player must jump across a river using rafts and crocodiles.",
+        "reward": "$35"
+    },
+    "Present 24": {
+        "section": "Ancient Wobbly Trials",
+        "location": "Jungle Island",
+        "description": "In the room to the right of the archaeologists.",
+        "reward": "$10"
+    },
+    "Present 25": {
+        "section": "Ancient Wobbly Trials",
+        "location": "Jungle Island",
+        "description": "In the room to the right of the archaeologists.",
+        "reward": "$5"
+    },
+    "Present 26": {
+        "section": "Ancient Wobbly Trials",
+        "location": "Jungle Island",
+        "description": "In the same cave, in the room to the left once you reach the archaeologists.",
+        "reward": "$10"
+    },
+    "Present 27": {
+        "section": "Ancient Wobbly Trials",
+        "location": "Jungle Island",
+        "description": "In the same cave, in the room to the left once you reach the archaeologists.",
+        "reward": "$5"
+    },
+    "Present 28": {
+        "section": "Ancient Wobbly Trials",
+        "location": "Jungle Island",
+        "description": "Next to the lift, after the whirlpool.",
+        "reward": "Frog Hat"
+    },
+    "Present 29": {
+        "section": "Mountain Island",
+        "location": "Secret Lab",
+        "description": "On the bottom level of the plank and nail platforming section.",
+        "reward": "$75"
+    },
+    "Present 30": {
+        "section": "Mountain Island",
+        "location": "Secret Lab",
+        "description": "Hidden within the book pile on the globe table.",
+        "reward": "$50"
+    },
+    "Present 31": {
+        "section": "Mountain Island",
+        "location": "Secret Lab",
+        "description": "Before going through the hole with a spider web by it, to the right of the bottles in the cupboard.",
+        "reward": "$50"
+    },
+    "Present 32": {
+        "section": "Mountain Island",
+        "location": "Secret Lab",
+        "description": "Behind the shrinking machine.",
+        "reward": "$50"
+    },
+    "Present 33": {
+        "section": "Mountain Island",
+        "location": "Secret Lab",
+        "description": "Backtrack at the beginning of the bottle maze on the upper shelf of the middle table.",
         "reward": "$50"
     }
 }
