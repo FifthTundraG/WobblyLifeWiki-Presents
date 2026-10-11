@@ -1,4 +1,4 @@
-from common import WikiPresent, get_presents_in_section, info
+from .common import WikiPresent, get_presents_in_section, info
 
 OUTPUT_FILE: str = "presents.wikitext"
 

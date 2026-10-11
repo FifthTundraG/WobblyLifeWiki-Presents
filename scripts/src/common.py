@@ -3,7 +3,7 @@ import re
 from dataclasses import dataclass
 from typing import Any
 
-info: dict[str, Any] = json.load(open("scripts/info.json", "r", encoding="utf-8"))  # noqa: SIM115
+info: dict[str, Any] = json.load(open("src/info.json", "r", encoding="utf-8"))  # noqa: SIM115
 
 @dataclass
 class GamePresent:

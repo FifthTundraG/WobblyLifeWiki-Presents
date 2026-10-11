@@ -10,8 +10,13 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-scripts = "scripts:main"
+to_article = "src.to_article:main"
+to_datamap = "src.to_datamap:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "src"
+module-root = ""
