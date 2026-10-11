@@ -1,55 +1,30 @@
 # Converts a presents dump file into a markers group for usage in a MediaWiki DataMaps map
 
 import json
-import re
-import sys
+from typing import Any
 
+from .common import GamePresent
 
-def parse_presents(file_path):
-    presents = []
+OUTPUT_FILE: str = "presents.json"
 
-    with open(file_path, "r", encoding="utf-8") as file:
-        for line in file:
-            match = re.search(
-                r"Name:(.*?);GUID:[^;]+;Position:"
-                r"\s*(-?\d+(?:\.\d+)?),"
-                r"\s*(-?\d+(?:\.\d+)?),"
-                r"\s*(-?\d+(?:\.\d+)?);Texture:(.*)",
-                line,
-            )
+def game_present_to_datamap_marker(present: GamePresent) -> dict[str, Any]:
+    return {
+        "name": present.name,
+        "x": present.x,
+        "y": present.y,
+        "image": present.image
+    }
 
-            if not match:
-                continue
-
-            name, x, y, z, texture_name = match.groups()
-
-            presents.append({
-                "x": int(float(x)),
-                "y": int(float(z)),
-                "name": name.strip(),
-                "image": texture_name.replace("_", " ") + ".png"
-            })
-
-    presents.sort(
-        key=lambda present: int(
-            re.search(r"\d+", present["name"]).group()
-        )
-    )
-
-    return {"presents": presents}
 
 def main() -> None:
-    if len(sys.argv) < 2:
-        print("Usage: python3 to_datamap.py <input_file>")
-        sys.exit(1)
+    game_presents = GamePresent.parse_dump("presentsdump.txt")
 
-    input_file = sys.argv[1]
-    data = parse_presents(input_file)
+    data = {"presents": [game_present_to_datamap_marker(present) for present in game_presents]}
 
-    with open("presents.json", "w", encoding="utf-8") as file:
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4)
 
-    print(f"Exported {len(data['presents'])} presents to presents.json")
+    print(f"Exported {len(data['presents'])} presents to {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
