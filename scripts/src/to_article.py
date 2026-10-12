@@ -16,12 +16,12 @@ def output_row(present: WikiPresent) -> str:
 
 def create_section(section: str) -> str:
     output = f"=== {section} ===\n"
-    output += '''{| class="wikitable mw-collapsible"
+    output += '''{| class="wikitable mw-collapsible sortable"
 |+
-!Image
+!class="unsortable" | Image
 !#
 !Location
-!Description
+!class="unsortable" | Description
 !Reward'''
 
     section_members = get_presents_in_section(section)
