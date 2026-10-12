@@ -405,13 +405,13 @@
         "Present 66": {
             "section": "Mansion and Paradise Island",
             "location": "",
-            "description": "Hedge maze on the grounds of the red mansion",
+            "description": "Hedge maze on the grounds of the red mansion.",
             "reward": "$45"
         },
         "Present 67": {
             "section": "Mansion and Paradise Island",
             "location": "",
-            "description": "First greenhouse behind the red mansion",
+            "description": "First greenhouse behind the red mansion.",
             "reward": "$45"
         },
         "Present 68": {
@@ -429,68 +429,68 @@
         "Present 70": {
             "section": "Residential Island",
             "location": "Mall",
-            "description": "In the grocery section, next to the ice cream freezers",
+            "description": "In the grocery section, next to the ice cream freezers.",
             "reward": "$50"
         },
         "Present 71": {
-            "section": "todo",
-            "location": "todo",
-            "description": "todo",
-            "reward": "todo"
+            "section": "Residential Island",
+            "location": "Mall",
+            "description": "In the second floor shoe shop, behind the shelves.",
+            "reward": "$45"
         },
         "Present 72": {
-            "section": "todo",
-            "location": "todo",
-            "description": "todo",
-            "reward": "todo"
+            "section": "Residential Island",
+            "location": "Train tracks",
+            "description": "At the base of the support beam of the train tacks in the water closest to Residential Island.",
+            "reward": "$75"
         },
         "Present 73": {
-            "section": "todo",
-            "location": "todo",
-            "description": "todo",
-            "reward": "todo"
+            "section": "City Island",
+            "location": "Vehicle Paint Shop",
+            "description": "Inside the office.",
+            "reward": "$45"
         },
         "Present 74": {
-            "section": "todo",
-            "location": "todo",
-            "description": "todo",
-            "reward": "todo"
+            "section": "Mountain Island",
+            "location": "Secret Lab",
+            "description": "Found to the right of the lift mechanism after entering the big doors.",
+            "reward": "$45"
         },
         "Present 75": {
-            "section": "todo",
-            "location": "todo",
-            "description": "todo",
-            "reward": "todo"
+            "section": "Mountain Island",
+            "location": "Secret Lab",
+            "description": "On the red platform in the lift shaft, accessible when the lift is moving.",
+            "reward": "$100"
         },
         "Present 76": {
-            "section": "todo",
-            "location": "todo",
-            "description": "todo",
-            "reward": "todo"
+            "section": "Mountain Island",
+            "location": "Secret Lab",
+            "description": "On top of the middle cluster of pallets.",
+            "reward": "$35"
         },
         "Present 77": {
-            "section": "todo",
-            "location": "todo",
-            "description": "todo",
-            "reward": "todo"
+            "section": "City Island",
+            "location": "Fire Station",
+            "description": "On the second floor next to the vending machine.",
+            "reward": "$45"
         },
         "Present 78": {
-            "section": "todo",
-            "location": "todo",
-            "description": "todo",
-            "reward": "todo"
+            "section": "Mountain Island",
+            "location": "Secret Lab",
+            "description": "On the same floor of the Labcoat Outfit only section, in a rocket observation room.",
+            "reward": "$45"
         },
         "Present 79": {
-            "section": "todo",
-            "location": "todo",
-            "description": "todo",
-            "reward": "todo"
+            "section": "Mountain Island",
+            "location": "Secret Lab",
+            "description": "Go up two floors in the Labcoat Outfit only section, near the alien evidence.",
+            "reward": "{{ubl|$50|Secret Service Glasses}}"
         },
         "Present 80": {
-            "section": "todo",
-            "location": "todo",
-            "description": "todo",
-            "reward": "todo"
+            "section": "Mountain Island",
+            "location": "Military Base",
+            "description": "Inside the West hangar (If looking straight at it it is the one on the right)",
+            "reward": "$95"
         },
         "Present 81": {
             "section": "todo",
